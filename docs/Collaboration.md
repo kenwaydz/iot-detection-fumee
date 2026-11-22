@@ -2,24 +2,29 @@
 
 ## Contributeurs
 
-| Membre | Responsabilité |
+| Membre | Contribution documentaire prévue |
 |---|---|
-| Belkhir Mohamed | Capteur MQ-2, acquisition ESP32 et schéma électrique |
-| Benachenhou Abdelkarim | Communication Wi-Fi/MQTT et réception des données |
-| Belhaoua Aissa | Interface web, tests, validation et navigation du Wiki |
+| Belkhir Mohamed | Accueil, modèle de module et documentation du Module 1 |
+| Benachenhou Abdelkarim | Module 2, catégories et liens internes |
+| Belhaoua Aissa | Module 3, sommaire, infobox, tests simulés et navigation |
 
-Les identifiants GitHub des membres sont à ajouter après confirmation et invitation au dépôt.
+Chaque membre doit modifier les pages qui lui sont attribuées depuis son propre compte GitHub. Cette répartition concerne le TP Wiki, pas la réalisation du matériel IoT.
 
 ## Ajouter des collaborateurs
-Dans GitHub : ouvrir le dépôt → Settings → Collaborators (ou Collaborators and teams) → Add people. Chaque personne doit accepter l'invitation.
+Le propriétaire du dépôt ouvre Settings → Collaborators (ou Collaborators and teams) → Add people. Il recherche le nom d'utilisateur GitHub de chaque membre et envoie l'invitation. Chaque membre doit l'accepter.
 
 ## Discussions et validation
-Utiliser Discussions si cette fonctionnalité est activée. Sinon, créer une Issue par proposition de modification et échanger dans les commentaires. Indiquer la décision et le membre qui l'a validée.
+Créer une discussion GitHub si Discussions est activé. Sinon, utiliser une Issue. Exemple de sujet : « Validation de la page Module 1 ». Les membres commentent les changements proposés et consignent la décision dans le journal ci-dessous.
 
 ## Historique
-Chaque fichier possède un historique Git. Ouvrir le fichier puis cliquer sur History pour identifier les auteurs, dates et commits. Chaque membre doit effectuer ses propres commits avec son compte.
+Pour consulter l'historique : ouvrir un fichier dans GitHub puis cliquer sur History. Relever l'auteur, la date et le message du commit. Chaque membre doit effectuer au moins une modification identifiable avec son propre compte.
 
 ## Journal de validation
-| Date | Page | Modification proposée | Validée par |
+| Date | Page | Modification proposée | Avis / validation |
 |---|---|---|---|
-| À compléter après les échanges | À compléter | À compléter | À compléter |
+| À compléter lors de la discussion | Module 1 | À compléter | À compléter |
+| À compléter lors de la discussion | Module 2 | À compléter | À compléter |
+| À compléter lors de la discussion | Module 3 | À compléter | À compléter |
+
+## Remarque sur le format
+Les pages de ce dépôt sont des fichiers Markdown versionnés par Git. Si l'enseignant exige l'onglet Wiki natif de GitHub, il faut aussi activer et alimenter cette fonctionnalité séparément.
