@@ -1,28 +1,27 @@
 # Module 3 – Interface utilisateur
 
 ## Présentation
-Ce module présente les mesures et les alertes à l'utilisateur depuis une interface web ou mobile.
+Ce module décrit une interface fictive qui affiche la mesure simulée du capteur et un état correspondant.
 
-## Objectifs
-- Afficher les mesures reçues.
-- Signaler les alertes.
-- Consulter l'historique des événements.
+## Objectifs documentaires
+- Présenter les informations utiles à l'utilisateur.
+- Montrer la différence entre un état normal et une alerte.
+- Illustrer un historique simple de valeurs.
 
-## Matériel et logiciels
-Ordinateur ou smartphone, serveur applicatif et base de données.
+## Fonctionnement simulé
+La page de démonstration génère des valeurs fictives dans le navigateur. Si la valeur générée dépasse le seuil pédagogique, l'interface affiche « Alerte ». Il ne s'agit pas d'une connexion à un vrai capteur.
 
-## Fonctionnement
-L'interface récupère les données de la plateforme, les présente et affiche une alerte lorsqu'un événement répond aux règles configurées.
+## Informations affichées
+- Nom du capteur fictif.
+- Valeur simulée.
+- Seuil de démonstration.
+- État : normal ou alerte.
 
-## Entrées et sorties
-- Entrée : données et événements transmis par le serveur.
-- Sortie : tableau de bord, notifications et historique.
+## Liens
+- [Module 2 – Communication IoT](Module-2-Communication-IoT.md)
+- [Simulation logicielle](../Documentation/Simulation-IoT.html)
+- [Scénarios de test simulés](../Tests/Scenarios-de-test.md)
+- [Résultats des tests simulés](../Tests/Resultats-des-tests.md)
 
-## Technologies
-À préciser selon l'implémentation réelle.
-
-## Tests
-Vérifier l'affichage des mesures, la visibilité des alertes et la consultation de l'historique. Ajouter des captures réelles après exécution.
-
-## Responsable
-À compléter.
+## Responsable documentaire
+Belhaoua Aissa
