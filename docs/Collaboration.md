@@ -1,14 +1,12 @@
 # Collaboration et historique
 
 ## Contributeurs
-Ajouter les noms et identifiants GitHub des membres après leur invitation au dépôt.
 
 | Membre | Identifiant GitHub | Responsabilité |
 |---|---|---|
-| Membre 1 | À compléter | Coordination / documentation |
-| Membre 2 | À compléter | Capteur et acquisition |
-| Membre 3 | À compléter | Communication IoT |
-| Membre 4 | À compléter | Interface / tests |
+| Belkhir Mohamed | À compléter | À définir |
+| Benachenhou Abdelkarim | À compléter | À définir |
+| Belhaoua Aissa | À compléter | À définir |
 
 ## Ajouter des collaborateurs
 Dans GitHub : ouvrir le dépôt → Settings → Collaborators (ou Collaborators and teams) → Add people. Les personnes invitées doivent accepter l'invitation.
