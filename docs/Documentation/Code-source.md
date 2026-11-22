@@ -1,18 +1,15 @@
-# Code source
+# Code source — exemple de simulation
 
-## Environnement
-- Arduino IDE ou environnement adapté à la carte.
-- C/C++ pour Arduino/ESP32, selon l'implémentation.
+## Objectif
+Le TP porte sur le Wiki collaboratif, pas sur la construction du système IoT. Le fichier [Simulation-IoT.html](Simulation-IoT.html) est un exemple autonome qui génère des valeurs fictives dans un navigateur.
 
-## Dépôt du code
-**À compléter :** ajouter le lien vers le dépôt ou le dossier du code source développé.
+## Utilisation
+1. Ouvrir le fichier Simulation-IoT.html depuis le dépôt GitHub.
+2. Télécharger le fichier ou cloner le dépôt.
+3. Ouvrir le fichier HTML dans un navigateur.
+4. Cliquer sur « Générer une mesure » pour afficher une nouvelle valeur fictive.
 
-## Organisation suggérée
-- Lecture du capteur.
-- Calibration et comparaison au seuil.
-- Connexion réseau.
-- Envoi des mesures et événements.
-- Gestion des erreurs et reconnexion.
+Aucune carte ESP32, aucun capteur, broker MQTT, base de données ou serveur n'est nécessaire.
 
-## Extrait de code
-**À compléter :** insérer un extrait du programme final et expliquer son rôle.
+## Code
+Le code complet est dans [Simulation-IoT.html](Simulation-IoT.html). Les valeurs sont générées aléatoirement et ne représentent pas des mesures réelles.
