@@ -18,12 +18,11 @@ Le projet consiste à concevoir un système d'alerte IoT pour détecter la fumé
 5. Une base de données conserve les événements.
 
 ## Équipe
-| Rôle | Membre |
+| Membre | Rôle |
 |---|---|
-| Coordination et documentation | À compléter |
-| Capteur et acquisition | À compléter |
-| Communication IoT | À compléter |
-| Interface et tests | À compléter |
+| Belkhir Mohamed | À définir |
+| Benachenhou Abdelkarim | À définir |
+| Belhaoua Aissa | À définir |
 
 ## Accès rapide
 - [Infobox](Informations-du-projet.md)
