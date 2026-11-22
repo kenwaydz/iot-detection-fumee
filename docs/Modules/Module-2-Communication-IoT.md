@@ -1,30 +1,34 @@
 # Module 2 – Communication IoT
 
 ## Présentation
-Ce module transmet les mesures du microcontrôleur vers une plateforme de surveillance.
+Dans le scénario fictif, ce module représente le transfert des mesures depuis un équipement vers une application. Il est décrit à titre pédagogique ; aucune configuration réseau réelle n'est requise.
 
-## Objectifs
-- Transmettre les mesures.
-- Assurer la communication entre l'équipement et le serveur.
-- Transporter les événements d'alerte.
+## Objectifs documentaires
+- Expliquer pourquoi les données doivent être transmises.
+- Présenter simplement le rôle d'un protocole de communication.
+- Donner un exemple de message structuré.
 
-## Matériel
-- ESP32 ou Arduino avec connectivité réseau.
-- Point d'accès Wi-Fi.
-- Serveur ou plateforme de réception.
+## Fonctionnement théorique
+Un équipement connecté pourrait envoyer une mesure à une application par Wi-Fi. MQTT est un exemple de protocole de messagerie souvent utilisé dans les systèmes IoT. Dans le cadre de ce TP, nous illustrons seulement la structure du message, sans installer de broker.
 
-## Fonctionnement
-Le microcontrôleur prépare les mesures puis les transmet au serveur via Wi-Fi. MQTT peut être utilisé si cette option est retenue. Le broker, les topics et le format des messages seront précisés après implémentation.
+## Exemple de message simulé
+```json
+{
+  "capteur": "MQ-2",
+  "valeur": 760,
+  "seuil": 700,
+  "etat": "alerte"
+}
+```
 
-## Entrées et sorties
-- Entrée : mesures et événements du capteur.
-- Sortie : messages transmis à la plateforme.
+## Entrées et sorties (scénario)
+- Entrée : mesure fictive produite par le Module 1.
+- Sortie : message JSON illustratif qui pourrait être transmis à une interface.
 
-## Technologies
-Wi-Fi, ESP32 et éventuellement MQTT.
+## Liens
+- [Module 1 – Capteur et acquisition](Module-1-Capteur-et-acquisition.md)
+- [Module 3 – Interface utilisateur](Module-3-Interface-utilisateur.md)
+- [Code de simulation](../Documentation/Simulation-IoT.html)
 
-## Tests
-Vérifier la connexion, la réception des messages, les pertes de communication et la reconnexion. Reporter les résultats dans [Résultats des tests](../Tests/Resultats-des-tests.md).
-
-## Responsable
-À compléter.
+## Responsable documentaire
+Benachenhou Abdelkarim
